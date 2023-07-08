@@ -5,6 +5,7 @@ const humanCatDogYears = require("./kata4.humanCatDogYears");
 const reachDestination = require("./kata5.reachDestination");
 const joinNames = require("./kata6.joinNames");
 const getEmployerRole = require("./kata7.getEmployerRole");
+const fibonacci = require("./kata8.fibonacci");
 
 module.exports = {
   fizzBuzz,
@@ -14,4 +15,5 @@ module.exports = {
   reachDestination,
   joinNames,
   getEmployerRole,
+  fibonacci,
 };
