@@ -1,4 +1,4 @@
-function booleanToWord(value) {
+const booleanToWord = (value) => {
   if (typeof value !== "boolean") {
     throw new Error("Invalid input. Expected a boolean value.");
   }
@@ -6,6 +6,6 @@ function booleanToWord(value) {
     return "Yes";
   }
   return "No";
-}
+};
 
 module.exports = booleanToWord;

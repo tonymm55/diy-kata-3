@@ -1,7 +1,9 @@
-function getEmployerRole(employeeName, employees) {
-  const employee = employees.find((obj) => obj.name === employeeName);
+const getEmployerRole = (employeeNameString, employeesArray) => {
+  const employee = employeesArray.find(
+    (obj) => obj.name === employeeNameString
+  );
 
   return employee.role;
-}
+};
 
 module.exports = getEmployerRole;
